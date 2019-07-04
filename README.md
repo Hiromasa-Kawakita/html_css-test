@@ -1,4 +1,4 @@
-# html_test
+# html_css-test
 htmlの勉強用リポジトリ
 
 # GitHub Pages URL
