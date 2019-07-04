@@ -1,2 +1,5 @@
 # html_test
-練習
+htmlの勉強用リポジトリ
+
+# GitHub Pages URL
+https://hiromasa-kawakita.github.io/html_test/
