@@ -6,4 +6,4 @@ htmlとcssの勉強用リポジトリ
 https://hiromasa-kawakita.github.io/html-css_test/
 
 ## 01.html
-https://hiromasa-kawakita.github.io/html-css_test/www/portfolio/01.html
+https://hiromasa-kawakita.github.io/html_css-test/www/portfolio/01.html
