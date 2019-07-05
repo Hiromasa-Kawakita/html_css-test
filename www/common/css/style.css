@@ -1,6 +1,8 @@
 p { font-size: 14px; }
 
 /* 見出し */
-h1 { font-size: 26px; }
-h2 { font-size: 18px; }
-h3 { font-size: 16px; }
+.pageTitle { font-size: 26px; }
+.heading-typeA { font-size: 18px; }
+.heading-typeB { font-size: 16px; }
+.heading-typeC { font-size: 14px; }
+
