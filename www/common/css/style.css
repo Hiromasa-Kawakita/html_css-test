@@ -4,7 +4,30 @@ p { font-size: 14px; }
 
 ul li {
     font-size: 14px;
-    list-style-type: square;
+    list-style-type: square; /* リスト記号 */
+}
+
+table {
+    font-size: 14px;
+    border: solid 1px #cccccc;
+    border-collapse: collapse; /* 罫線同士の隙間がなくなる(separate：分離ボーダー表示) */
+    width: 100%; /* ブラウザの横幅いっぱいまで表示 */
+}
+
+table th,
+table td {
+    border: solid 1px #cccccc;
+    padding: 5px 10px;
+}
+
+table th {
+    background-color: #eeeeee;
+    text-align: left; /* 左寄せ */
+}
+
+table caption {
+    text-align: left;
+    font-weight: bold /* 太文字 */
 }
 
 /* 見出し */
