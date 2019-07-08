@@ -1,6 +1,6 @@
 body { 
     color: #333333;
-    font-family: sans-serif; /* フォントの指定 */
+    /* font-family: sans-serif; フォントの指定 */
 }
 
 p { 
@@ -19,7 +19,7 @@ table {
     font-size: 14px;
     line-height: 1.429;
     border: solid 1px #cccccc;
-    border-collapse: collapse; /* 罫線同士の隙間がなくなる(separate：分離ボーダー表示) */
+    /* border-collapse: collapse; 罫線同士の隙間がなくなる(separate：分離ボーダー表示) */
     width: 100%; /* ブラウザの横幅いっぱいまで表示 */
 }
 
