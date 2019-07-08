@@ -2,6 +2,11 @@ body { color: #333333 }
 
 p { font-size: 14px; }
 
+ul li {
+    font-size: 14px;
+    list-style-type: square;
+}
+
 /* 見出し */
 .pageTitle {
     font-size: 26px;
