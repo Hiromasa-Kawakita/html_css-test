@@ -39,6 +39,14 @@ table caption {
     font-weight: bold /* 太文字 */
 }
 
+figure {
+    margin: 0px;
+}
+
+figcaption {
+    font-size: 12px;
+}
+
 /* 見出し */
 .pageTitle {
     font-size: 26px;
