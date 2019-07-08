@@ -10,7 +10,11 @@ p { font-size: 14px; }
 .heading-typeA { 
     font-size: 18px;
     color: #349FA6;
+    border-bottom: solid 1px #349FA6;
 }
-.heading-typeB { font-size: 16px; }
+.heading-typeB {
+     font-size: 16px;
+     border-left: solid 5px #E3E4D9;
+    }
 .heading-typeC { font-size: 14px; }
 
