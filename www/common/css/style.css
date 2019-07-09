@@ -5,6 +5,12 @@ body {
     /* font-family: sans-serif; フォントの指定 */
 }
 
+/* ページ */
+#page {
+    width: 980px;
+    margin: 0 auto;
+}
+
 /* ページヘッダー */
 #siteTitle {
     font-size: 40px;
