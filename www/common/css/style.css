@@ -19,6 +19,11 @@ body {
     margin-top: 5px;
 }
 
+#pageFoot {
+    border-top: solid 1px #cccccc;
+    margin-top: 15px;
+}
+
 #copyright small {
     font-size: 12px;
     line-height: 1.429;
