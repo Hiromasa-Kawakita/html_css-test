@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300i&display=swap');
+
 body { 
     color: #333333;
     /* font-family: sans-serif; フォントの指定 */
@@ -5,9 +7,10 @@ body {
 
 /* ページヘッダー */
 #siteTitle {
-    font-size: 30px;
+    font-size: 40px;
     line-height: 1.2;
     margin-bottom: 0px;
+    font-family: 'Fira Sans', sans-serif;
 }
 
 #catchcopy {
