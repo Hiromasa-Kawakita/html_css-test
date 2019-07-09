@@ -19,6 +19,10 @@ body {
     margin-top: 5px;
 }
 
+#copyright small {
+    font-size: 12px;
+    line-height: 1.429;
+}
 
 p { 
     font-size: 14px; 
