@@ -25,14 +25,37 @@ body {
     margin-top: 5px;
 }
 
+/* ページフッター */
 #pageFoot {
     border-top: solid 1px #cccccc;
     margin-top: 15px;
+    /* clear: both; floatプロパティをクリア */
 }
 
 #copyright small {
     font-size: 12px;
     line-height: 1.429;
+}
+
+/* ページボディ */
+#pageBody {
+    margin-top: 30px;
+}
+
+#pageBody:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#pageBodyMain {
+    width: 720px;
+    float: left;
+}
+
+#pageBodySub {
+    width: 220px;
+    float: right;
 }
 
 p { 
@@ -85,6 +108,7 @@ figcaption {
     background-color: #F2F2E5;
     padding: 5px 15px;
     line-height: 1.231;
+    margin: 0px;
 }
 .heading-typeA { 
     font-size: 18px;
