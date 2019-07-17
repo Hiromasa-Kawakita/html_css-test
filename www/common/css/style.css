@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300i&display=swap');
+@import url(http://fonts.googleapis.com/css?family=Antic+Didone);
 
 body { 
     color: #333333; /* font-family: sans-serif; フォントの指定 */
-    background-image: url("../../portfolio/images/bg1.png");
-    background-position-x: repeat-x;
+    /* background-image: url("../../portfolio/images/bg1.png"); */
+    /* background-position-x: repeat-x; */
     
 }
 
@@ -27,13 +27,58 @@ a:hover {
     font-size: 40px;
     line-height: 1.2;
     margin-bottom: 0px;
-    font-family: 'Fira Sans', sans-serif;
+    font-family: 'Antic Didone';
 }
 
 #pageHead #catchcopy {
     font-size: 12px;
     line-height: 1.5;
     margin-top: 5px;
+}
+
+/* グローバルナビ */
+#pageHead .globalNavi {
+    border: solid #cccccc;
+    border-width: 1px 0;
+    padding: 10px 0;
+}
+
+#pageHead .globalNavi ul {
+    margin: 0;
+    padding: 0;
+}
+
+#pageHead .globalNavi ul::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#pageHead .globalNavi ul li{
+    list-style: none; /* リスト非表示 */
+    width: 245px;
+    float: left;
+    border-left: solid 1px #cccccc;
+    padding: 0 10px;
+    box-sizing: border-box; /* width指定内にpaddingや罫線を入れる */
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.429;
+}
+
+#pageHead .globalNavi ul li:first-child {
+    border-left: none; /* 最初のリストの罫線を非表示 */
+}
+
+#pageHead .globalNavi ul li a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+}
+
+#pageHead .globalNavi ul li a:hover {
+    background-color: #F2F2E5;
 }
 
 /* ページフッター */
