@@ -48,7 +48,7 @@ a:hover {
     padding: 0;
 }
 
-#pageHead .globalNavi ul::after {
+#pageHead .globalNavi ul:after {
     content: "";
     clear: both;
     display: block;
@@ -77,7 +77,8 @@ a:hover {
     padding: 5px 0;
 }
 
-#pageHead .globalNavi ul li a:hover {
+#pageHead .globalNavi ul li a:hover, 
+#pageHead .globalNavi ul li a.current {
     background-color: #F2F2E5;
 }
 
