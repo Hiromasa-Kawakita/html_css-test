@@ -16,6 +16,10 @@ a:hover {
     color: #996600; /* リンクにカーソルを乗せたときの文字色を変更 */
 }
 
+.topicPath {
+    font-size: 12px;
+}
+
 /* ページ */
 #page {
     width: 980px;
