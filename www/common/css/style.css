@@ -97,7 +97,7 @@ a:hover {
 }
 
 #pageHead .globalNavi ul li a:hover, 
-#pageHead .globalNavi ul li a.current {
+#pageHead .globalNavi ul li.current a {
     background-color: #F2F2E5;
 }
 
