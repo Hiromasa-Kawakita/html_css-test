@@ -159,6 +159,31 @@ a:hover {
     line-height: 1.429;
 }
 
+#pageBodyMain .btn {
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 30px 0px;
+    border-bottom: 1px dotted #cccccc;
+}
+
+#pageBodyMain .btn a {
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #058BA9;
+    padding: 10px 20px;
+    border-radius: 5px; /* 丸角 */
+    background-image: linear-gradient(to bottom, #92CDDB, #058ba9); /* グラデーション(方向性, 開始色, 終了色) */
+    border: 1px solid #058BA9;
+    box-shadow: 1px 1px 0 #9DDDED inset; /* シャドウ(水平方向の距離、垂直の距離、ぼかし具合、影の色、ボッスクの内側に影をつける) */
+    display: inline-block; /* a要素はインラインのため、aで設定したpaddingがはみ出しているため、インラインブロック化 */
+}
+
+#pageBodyMain .btn a:hover {
+    opacity: 0.7;
+}
+
 /* 「つくったもの」一覧ページ */
 #pageBodyMain .articleList {
     border: solid 1px #cccccc;
