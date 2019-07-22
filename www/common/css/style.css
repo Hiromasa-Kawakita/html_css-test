@@ -265,6 +265,16 @@ a:hover {
     margin-bottom: 0;
 }
 
+#pageBody .mainVisual ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#pageBody .mainVisual ul li {
+    position: relative;
+}
+
 #pageBody .portfolioIndex {
     margin-top: 40px;
 }
@@ -424,6 +434,27 @@ figure {
     padding: 10px;
     border: solid 1px #cccccc;
 }
+
+#pageBodyMain .creditUnit:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+#pageBodyMain .creditUnitText {
+    float: right;
+    width: 378px;
+}
+
+#pageBodyMain .creditUnitMap {
+    float: left;
+    width: 300px;
+}
+
+#pageBodyMain .creditUnit .creditUnitMap iframe {
+    vertical-align: bottom;
+}
+
 
 #pageBodyMain .creditUnit p {
     font-size: 12px;

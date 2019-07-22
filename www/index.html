@@ -7,6 +7,21 @@
     <meta name="description" content="komorikomasyaはコモモ・モリコ・ひろましゃ3人のメンバーが勢いで作ったものや活動を紹介しているサイトです。">
     <link rel="stylesheet" href="common/css/style.css">
     <link rel="stylesheet" href="common/css/normalize.css">
+
+    <script src="./common/js/jquery-1.10.1.min.js"></script>
+    <script src="./common/js/bxslider-4-4.2.12/dist/jquery.bxslider.js"></script>
+    <link rel="stylesheet" href="./common/js/bxslider-4-4.2.12/dist/jquery.bxslider.css">
+    <script>
+        $(function () {
+            $('.bxslider').bxSlider({
+                auto: true,
+                speed: 1000,
+                mode: 'fade',
+                pause: 5000,
+                captions: true
+            });
+        });
+    </script>
 </head>
 
 <body>
@@ -25,13 +40,31 @@
         </header>
         <div id="pageBody">
             <section class="mainVisual">
-                <div class="mainVisualText">
-                    <h1>Cafe Debut</h1>
-                    <p>baserCMS.カフェサイト用テーマ<br>
-                        baserCMS2012 テーマコンテスト 飲食店テーマ賞受賞</p>
-                </div>
-                <img src=".//images/mainVisual_img_01.jpg" alt="" width="980" height="500">
+                <ul class="bxslider">
+                    <li>
+                        <div class="mainVisualText">
+                            <h1>バッタになりたい魔法使い</a></h1>
+                            <p>コモモ・ひろましゃ制作のWeb仕掛け絵本<br>合言葉は、バッタになっちゃえ!</p>
+                        </div>
+                        <img src="./images/mainVisual_img_01.jpg" alt="" width="980" height="500">
+                    </li>
+                    <li>
+                        <div class="mainVisualText">
+                            <h1>WordPressデザインワーク</a></h1>
+                            <p>コモモ・ひろましゃ2人の共著によるWordPressで本格的なウェブサイトを制作したい方向向けの書籍</p>
+                        </div>
+                        <img src="./images/mainVisual_img_02.jpg" alt="" width="980" height="500">
+                    </li>
+                    <li>
+                        <div class="mainVisualText">
+                            <h1>Cafe Debut</a></h1>
+                            <p>baserCMSのカフェサイト用凡用テーマ<br>テーマコンテスト2012飲食店系テーマ賞受賞</p>
+                        </div>
+                        <img src="./images/mainVisual_img_03.jpg" alt="" width="980" height="500">
+                    </li>
+                </ul>
             </section>
+
             <section class="portfolioIndex">
                 <article>
                     <a href="./portfolio/01.html"><img src=".//portfolio/images/index_01.jpg" alt="" width="300"
