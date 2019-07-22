@@ -295,6 +295,30 @@ a:hover {
     line-height: 1.5;
 }
 
+/* お知らせ */
+#pageBody .news {
+    margin-top: 40px;
+}
+#pageBody .news table tr th,
+#pageBody .news table tr td {
+    font-size: 14px;
+    line-height: 1.429;
+    border-bottom: 1px dotted #cccccc;
+    padding: 10px 0;
+    vertical-align: top;
+}
+
+#pageBody .news table tr th {
+    white-space: nowrap;
+    padding-right: 30px;
+}
+
+#pageBody .news h1 {
+    font-size: 20px;
+    border-bottom: 1px solid #cccccc;
+    padding: 5px 0;
+}
+
 /* リスト */
 #pageBodyMain ul li {
     font-size: 14px;
